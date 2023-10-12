@@ -25,7 +25,7 @@ const showWeatherData = (temp, name, iconID) => {
 }
 
 const showIcon = (iconNumber) => {
-    iconEl.src = '/img/' + iconNumber + '.svg'
+    iconEl.src = './img/' + iconNumber + '.svg'
 }
 
 
